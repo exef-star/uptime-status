@@ -33,12 +33,13 @@ a {
 }
 
 #header {
-  background: linear-gradient(53deg, rgba(118, 186, 153, 1) 0%, rgba(81, 226, 155, 1) 100%);
+  background: rgba(255, 255, 255, 0.5);
   padding: 30px 0 60px 0;
   color: white;
   width: 101%;
   height: 400px;
   padding-right: 1%;
+  backdrop-filter: saturate(200%) blur(20px);
 
   .container {
     display: flex;
@@ -351,7 +352,7 @@ a {
   font-size: 12px;
   text-align: center;
   line-height: 25px;
-  color: #969ea8;
+  color: #ffffff;
   margin-bottom: 40px;
 
   a {
