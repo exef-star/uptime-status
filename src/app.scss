@@ -7,7 +7,10 @@ $primary-color: #3bd672;
 }
 
 body {
-  background: #f6f8fa url(../public/background.png) top;
+  background: url(https://i.p-i.vip/68/20250525-6832c5cced392.jpg) top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
   font-family: LXGW WenKai Light;
   font-size: 14px;
   line-height: 1;
